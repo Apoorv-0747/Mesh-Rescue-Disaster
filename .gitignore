@@ -1,0 +1,34 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary patch & debug scripts from development
+*.tar.gz
+build_frontend.js
+dummy.jpg
+fix_*.js
+patch_*.js
+revert_*.js
+restore_*.js
+lint_*.js
